@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DGC Yapı | Sandviç Panel Çatı ve Cephe Kaplama, Çorlu Çerkezköy Tekirdağ</title>
+<meta name="description" content="DGC Yapı, 2007'den beri Trakya'da endüstriyel tesislerin çatı ve cephe kaplamasını yapar. Sandviç panel, trapez levha, metal kiremit ve polikarbon panel. Atermit Trakya Bölge Bayii.">
+<meta name="theme-color" content="#1F262B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EDEFF0; --paper:#F7F8F8; --line:#CBD1D5; --ink:#1F262B; --ink2:#4E5A62; --zinc:#6F7A82;
+  --graphite:#1F262B; --graphite2:#2B343A; --signal:#F0B323; --on-signal:#1F262B;
+  --btn-bg:#1F262B; --btn-fg:#fff; --field:#fff; --head-bg:rgba(237,239,240,.88);
+  --wall:#CBD0CC; --roof:#293133; --door:#39434A; --glass:#BFE3EE;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14191D; --paper:#1A2126; --line:#303A41; --ink:#EEF1F2; --ink2:#AEB9C0; --zinc:#8D979E;
+  --graphite:#EEF1F2; --graphite2:#2B343A; --on-signal:#1F262B;
+  --btn-bg:#EEF1F2; --btn-fg:#14191D; --field:#222B31; --head-bg:rgba(20,25,29,.88); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14191D; --paper:#1A2126; --line:#303A41; --ink:#EEF1F2; --ink2:#AEB9C0; --zinc:#8D979E;
+  --graphite:#EEF1F2; --graphite2:#2B343A; --on-signal:#1F262B;
+  --btn-bg:#EEF1F2; --btn-fg:#14191D; --field:#222B31; --head-bg:rgba(20,25,29,.88); color-scheme:dark}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink)}
+html{scroll-behavior:smooth}
+body{font-family:"Archivo",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased;padding-inline:0}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--signal);outline-offset:3px}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-stretch:118%;font-weight:800;letter-spacing:-.02em;line-height:1.05}
+h1{font-size:clamp(2.3rem,5.6vw,4.4rem)}
+h2{font-size:clamp(1.9rem,3.8vw,3rem)}
+h3{font-size:1.35rem;font-stretch:108%}
+section{scroll-margin-top:72px}
+.lead{font-size:1.15rem;color:var(--ink2);max-width:56ch}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 1.4rem;border-radius:3px;font-weight:700;text-decoration:none;border:2px solid var(--graphite);cursor:pointer;font:inherit;font-weight:700;font-stretch:108%}
+.btn.primary{background:var(--signal);border-color:var(--signal);color:var(--on-signal)}
+.btn.primary:hover{background:#ffc43a}
+.btn.ghost{background:transparent;color:var(--graphite)}
+.btn.ghost:hover{background:var(--btn-bg);color:var(--btn-fg)}
+
+/* header */
+header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--head-bg);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-stretch:125%;font-weight:900;letter-spacing:.01em;font-size:1.2rem}
+.brand svg{width:34px;height:24px}
+nav.main ul{list-style:none;display:flex;gap:26px;padding:0}
+nav.main a{text-decoration:none;font-weight:600;font-size:.95rem;padding:6px 0;border-bottom:2px solid transparent}
+nav.main a:hover{border-color:var(--signal)}
+.head-actions{display:flex;align-items:center;gap:12px}
+.head-tel{font-weight:700;text-decoration:none;font-stretch:108%}
+.burger{display:none;background:none;border:2px solid var(--graphite);border-radius:3px;padding:6px 10px;font:inherit;font-weight:700}
+
+/* hero */
+.hero{padding:56px 0 72px}
+.hero .wrap{display:grid;grid-template-columns:1fr 1.05fr;gap:48px;align-items:center}
+.hero h1{margin-bottom:20px}
+.hero .lead{margin-bottom:28px}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+.badge{margin-top:32px;display:inline-flex;gap:10px;align-items:center;font-size:.95rem;color:var(--ink2);border-top:1px solid var(--line);padding-top:16px}
+.badge b{color:var(--ink)}
+.stage{background:var(--bg)}
+.stage svg{width:100%;height:auto;display:block}
+.b-wall{fill:var(--wall);transition:fill .5s}
+.b-roof{fill:var(--roof);transition:fill .5s}
+.b-trim{fill:color-mix(in srgb,var(--wall) 65%,#000);transition:fill .5s}
+.b-roof-line{fill:color-mix(in srgb,var(--roof) 70%,#000);transition:fill .5s}
+.cover{fill:var(--bg);animation:reveal 1.5s cubic-bezier(.7,0,.2,1) .25s forwards}
+@keyframes reveal{to{transform:translateX(660px)}}
+.picker{margin-top:8px;border-top:1px solid var(--line);padding-top:16px}
+.picker-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.seg{display:inline-flex;border:2px solid var(--graphite);border-radius:3px;overflow:hidden}
+.seg button{border:0;background:transparent;font:inherit;font-weight:700;padding:.45rem 1rem;cursor:pointer;color:var(--graphite)}
+.seg button[aria-pressed="true"]{background:var(--btn-bg);color:var(--btn-fg)}
+.swatches{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+.sw{aspect-ratio:1.4;border-radius:3px;border:2px solid rgba(0,0,0,.18);cursor:pointer;position:relative;padding:0}
+.sw[aria-pressed="true"]{outline:3px solid var(--graphite);outline-offset:2px}
+.picked{margin:12px 0 0;font-size:.95rem;color:var(--ink2)}
+.picked b{color:var(--ink)}
+.picker .quote-link{display:inline-block;margin-top:10px;font-weight:700}
+.note-sm{font-size:.82rem;color:var(--zinc);margin-top:6px}
+
+/* products */
+.products{background:var(--paper);border-top:1px solid var(--line);padding:84px 0}
+.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:end;margin-bottom:44px}
+.catalog{display:grid;grid-template-columns:260px 1fr;gap:44px}
+[role=tablist]{display:flex;flex-direction:column;border-left:2px solid var(--line)}
+[role=tab]{text-align:left;background:none;border:0;font:inherit;font-weight:600;font-stretch:104%;padding:14px 18px;cursor:pointer;color:var(--ink2);border-left:6px solid transparent;margin-left:-4px}
+[role=tab]:hover{color:var(--ink)}
+[role=tab][aria-selected="true"]{color:var(--ink);font-weight:800;border-left-color:var(--signal);background:rgba(240,179,35,.14)}
+.js [role=tabpanel][hidden]{display:none}
+[role=tabpanel] + [role=tabpanel]{margin-top:40px}
+.js [role=tabpanel] + [role=tabpanel]{margin-top:0}
+.panel-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:start}
+.panel h3{font-size:2rem;margin-bottom:14px}
+.panel p{color:var(--ink2);margin-bottom:14px;max-width:62ch}
+.panel img.shot{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px;background:var(--line)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.chips span{border:1.5px solid var(--graphite);border-radius:99px;padding:.2rem .85rem;font-weight:600;font-size:.92rem}
+.ticks{list-style:none;padding:0;display:grid;gap:8px;margin-top:8px}
+.ticks li{padding-left:28px;position:relative;color:var(--ink2)}
+.ticks li::before{content:"";position:absolute;left:0;top:.5em;width:14px;height:8px;border-left:3px solid var(--graphite);border-bottom:3px solid var(--graphite);transform:rotate(-45deg) scale(.9)}
+.spec{display:grid;border-top:1px solid var(--line);margin-top:8px}
+.spec div{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.97rem}
+.spec dt{color:var(--ink2)} .spec dd{font-weight:700;margin:0}
+.weights{margin:20px 0;display:grid;gap:12px}
+.w-row{display:grid;grid-template-columns:150px 1fr 70px;gap:12px;align-items:center;font-size:.95rem}
+.w-bar{height:18px;background:var(--line);border-radius:2px;overflow:hidden}
+.w-bar i{display:block;height:100%;background:var(--zinc)}
+.w-bar i.a{background:var(--signal)}
+.w-row b{text-align:right}
+.acc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px}
+.acc-grid figure{margin:0}
+.acc-grid .ph{aspect-ratio:1;width:100%;background:var(--paper);border:1px solid var(--line);border-radius:4px}
+.acc-grid figcaption{font-size:.9rem;margin-top:6px;font-weight:600}
+
+/* applications */
+.apps{padding:84px 0}
+.apps-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:40px}
+.app{position:relative;min-height:420px;border-radius:4px;overflow:hidden;background:var(--graphite2);color:#fff;display:flex;align-items:flex-end}
+.app img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.app::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(20,26,30,.92) 5%,rgba(20,26,30,.1) 65%)}
+.app div{position:relative;z-index:1;padding:28px}
+.app h3{font-size:2rem;margin-bottom:8px}
+.app p{color:#dfe4e7;max-width:44ch}
+
+/* references */
+.refs{background:#1F262B;color:#fff;padding:84px 0}
+.refs .lead{color:#b8c1c7}
+.ref-layout{display:grid;grid-template-columns:320px 1fr;gap:44px;margin-top:40px}
+.ref-list{list-style:none;padding:0;border-top:1px solid #3a454c}
+.ref-list li{padding:16px 0;border-bottom:1px solid #3a454c;font-weight:700;font-stretch:108%;font-size:1.1rem}
+.ref-list small{display:block;font-weight:400;color:#9aa6ad;font-size:.9rem}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.gallery button{padding:0;border:0;background:#2b343a;cursor:zoom-in;border-radius:3px;overflow:hidden;aspect-ratio:1}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .35s}
+.gallery button:hover img{transform:scale(1.06)}
+dialog{border:0;background:transparent;max-width:92vw;max-height:92vh;padding:0}
+dialog::backdrop{background:rgba(10,14,16,.85)}
+dialog img{max-width:92vw;max-height:84vh;border-radius:4px}
+dialog form{text-align:right}
+dialog button{color:#1F262B;margin-bottom:8px;background:#fff;border:0;border-radius:3px;padding:.4rem .9rem;font:inherit;font-weight:700;cursor:pointer}
+
+/* about */
+.about{padding:84px 0;background:var(--paper);border-bottom:1px solid var(--line)}
+.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:56px}
+.about p{color:var(--ink2);margin-top:16px;max-width:62ch}
+.mv div{padding:22px 0;border-top:2px solid var(--graphite)}
+.mv div+div{margin-top:8px}
+.mv h3{margin-bottom:8px}
+.mv p{margin:0}
+
+/* contact */
+.contact{padding:84px 0}
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;margin-top:40px}
+.info p{margin:0 0 18px}
+.info a{font-weight:700;text-decoration:none;border-bottom:2px solid var(--signal)}
+.info .big{font-size:1.9rem;font-stretch:118%;font-weight:800;letter-spacing:-.01em;border:0}
+form.quote{display:grid;gap:14px}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:grid;gap:6px;font-weight:600;font-size:.92rem}
+input,select,textarea{font:inherit;padding:.75rem .85rem;border:1.5px solid var(--zinc);border-radius:3px;background:var(--field);color:var(--ink)}
+textarea{min-height:130px;resize:vertical}
+.map{margin-top:48px;border:1px solid var(--line);border-radius:4px;overflow:hidden;height:360px}
+.map iframe{width:100%;height:100%;border:0;filter:grayscale(.6)}
+
+footer.site{background:#1F262B;color:#b8c1c7;padding:36px 0;font-size:.92rem}
+footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer.site a{margin-left:18px;color:#fff}
+.callbar{display:none}
+
+@media (max-width:980px){
+  .hero .wrap,.sec-head,.catalog,.panel-grid,.apps-grid,.ref-layout,.about-grid,.contact-grid{grid-template-columns:1fr}
+  .catalog{gap:24px}
+  [role=tablist]{flex-direction:row;overflow-x:auto;border-left:0;border-bottom:2px solid var(--line)}
+  [role=tab]{border-left:0;border-bottom:5px solid transparent;margin:0 0 -2px;white-space:nowrap}
+  [role=tab][aria-selected="true"]{border-bottom-color:var(--signal)}
+  .gallery{grid-template-columns:repeat(3,1fr)}
+}
+@media (max-width:760px){
+  nav.main{display:none;position:absolute;top:64px;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 20px}
+  nav.main.open{display:block}
+  nav.main ul{flex-direction:column;gap:6px}
+  nav.main a{display:block;padding:10px 0}
+  .burger{display:block}
+  .head-tel,.head-actions .btn{display:none}
+  .brand{white-space:nowrap}
+  .gallery{grid-template-columns:repeat(2,1fr)}
+  .acc-grid{grid-template-columns:repeat(2,1fr)}
+  .f-row{grid-template-columns:1fr}
+  .w-row{grid-template-columns:110px 1fr 62px}
+  body{padding-bottom:64px}
+  .callbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;background:#1F262B;padding-bottom:env(safe-area-inset-bottom,0px)}
+  .callbar a{color:#fff;text-align:center;padding:16px;font-weight:700;text-decoration:none}
+  .callbar a:first-child{background:var(--signal);color:var(--on-signal)}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .cover{animation:none;transform:translateX(700px)}
+  *{transition:none!important}
+}
+
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--head-bg)}
+.ph{display:grid;place-items:center;background:var(--paper);border:1px solid var(--line);border-radius:4px;color:var(--ink2);overflow:hidden}
+.ph svg{width:100%;height:100%}
+.shotph{aspect-ratio:4/3;width:100%}
+.app .appart{position:absolute;inset:0}
+.app .appart svg{width:100%;height:100%}
+.gallery .g{aspect-ratio:1;border-radius:3px;overflow:hidden;background:#2b343a}
+.gallery .g svg{width:100%;height:100%;display:block}
+.mapbox{margin-top:48px;border:1px solid var(--line);border-radius:4px;padding:28px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;background:var(--paper)}
+.mapbox p{margin:0;max-width:46ch}
+.copy{font:inherit;font-weight:600;background:none;border:1.5px solid var(--zinc);color:var(--ink);border-radius:3px;padding:.2rem .7rem;cursor:pointer;margin-left:10px}
+.msg{font-weight:700;margin-top:6px}
+.refs .ref-list li,.refs h2{color:#fff}
+
+/* mobil iyileştirmeleri */
+input,select,textarea{font-size:16px;min-height:48px}
+.btn,.seg button,.copy,[role=tab]{min-height:44px}
+@media (max-width:760px){
+  body{font-size:16px;padding-bottom:calc(60px + env(safe-area-inset-bottom,0px))}
+  h1{font-size:clamp(2rem,9.5vw,2.6rem)}
+  h2{font-size:clamp(1.6rem,7vw,2rem)}
+  .hero{padding:28px 0 44px}
+  .hero .wrap{gap:28px}
+  .hero-cta .btn{flex:1 1 150px;justify-content:center}
+  .lead{font-size:1.05rem}
+  .products,.apps,.refs,.about,.contact{padding-block:52px}
+  .sec-head{margin-bottom:24px}
+  .swatches{grid-template-columns:repeat(4,1fr);gap:10px}
+  .sw{aspect-ratio:1.1;min-height:44px}
+  .picker-top{align-items:flex-start}
+  .seg button{padding:.6rem 1.2rem}
+  .panel h3{font-size:1.6rem}
+  .spec div{grid-template-columns:1fr;gap:2px;padding:10px 0}
+  .w-row{grid-template-columns:96px 1fr 64px;font-size:.88rem}
+  .app{min-height:300px}
+  .app h3{font-size:1.6rem}
+  .app div{padding:20px}
+  .ref-layout{gap:24px;margin-top:24px}
+  .gallery{gap:6px}
+  .info .big{font-size:1.6rem}
+  .info p{margin-bottom:14px}
+  .mapbox{padding:20px}
+  .mapbox .btn{width:100%;justify-content:center}
+  form.quote .btn{width:100%;justify-content:center}
+  footer.site{padding-bottom:calc(36px + 60px)}
+  footer.site a{margin-left:0;margin-right:18px}
+  .callbar a{min-height:56px;display:grid;place-items:center;padding-block:0}
+  nav.main{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+  nav.main a{padding:14px 0;font-size:1.05rem}
+  [role=tablist]{scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding-inline:max(16px,env(safe-area-inset-left,0px))}
+  [role=tab]{scroll-snap-align:start}
+}
+@media (max-width:380px){.brand{font-size:1.05rem}.w-row{grid-template-columns:84px 1fr 58px}}
+@media (hover:none){.gallery .g:hover{transform:none}}
+</style>
+</head>
+<body>
+
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="DGC Yapı ana sayfa">
+      <svg viewBox="0 0 34 24" aria-hidden="true"><path d="M0 24 L8 0 H26 L34 24 Z" fill="var(--ink)"/><path d="M12 24 L15 8 H19 L22 24 Z" fill="#F0B323"/></svg>
+      DGC YAPI
+    </a>
+    <nav class="main" id="nav" aria-label="Ana menü">
+      <ul>
+        <li><a href="#urunler">Ürünler</a></li>
+        <li><a href="#uygulamalar">Uygulamalar</a></li>
+        <li><a href="#referanslar">Referanslar</a></li>
+        <li><a href="#hakkimizda">Hakkımızda</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+      </ul>
+    </nav>
+    <div class="head-actions">
+      <a class="head-tel" href="tel:+905322076262">0 532 207 62 62</a>
+      <a class="btn primary" href="#iletisim" style="padding:.55rem 1rem">Teklif iste</a>
+      <button class="burger" aria-expanded="false" aria-controls="nav">Menü</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Endüstriyel tesislerin çatı ve cephe kaplaması</h1>
+      <p class="lead">DGC Yapı, 2007'den beri Trakya'da sandviç panel, trapez levha, metal kiremit ve polikarbon kaplama uygular. Tecrübeli ekibimizle projeniz kısa sürede teslim edilir.</p>
+      <div class="hero-cta">
+        <a class="btn primary" href="#iletisim">Teklif iste</a>
+        <a class="btn ghost" href="#urunler">Ürünleri incele</a>
+      </div>
+      <p class="badge"><span><b>Atermit Trakya Bölge Bayii</b> · Çorlu, Çerkezköy, Tekirdağ ve çevresi</span></p>
+    </div>
+
+    <div class="stage" id="stage">
+      <svg viewBox="0 0 720 420" role="img" aria-label="Sandviç panel kaplı endüstriyel bina. Aşağıdaki renk seçiciyle cephe ve çatı rengi değişir.">
+        <defs>
+          <pattern id="ribs" width="12" height="10" patternUnits="userSpaceOnUse">
+            <rect x="0" width="5" height="10" fill="#fff" opacity=".28"/>
+            <rect x="5" width="2" height="10" fill="#000" opacity=".18"/>
+            <rect x="9" width="1.5" height="10" fill="#000" opacity=".06"/>
+          </pattern>
+        </defs>
+        <!-- zemin -->
+        <rect x="20" y="368" width="680" height="4" fill="var(--ink)"/>
+        <!-- bina -->
+        <rect class="b-wall" x="90" y="190" width="540" height="178"/>
+        <rect x="90" y="190" width="540" height="178" fill="url(#ribs)"/>
+        <!-- çatı -->
+        <polygon class="b-roof" points="66,196 360,118 654,196 654,204 66,204"/>
+        <polygon class="b-roof-line" points="66,204 654,204 654,212 66,212"/>
+        <polygon points="360,118 654,196 640,196 360,126" fill="#fff" opacity=".18"/>
+        <!-- köşe bitişleri -->
+        <rect class="b-trim" x="90" y="212" width="9" height="156"/>
+        <rect class="b-trim" x="621" y="212" width="9" height="156"/>
+        <!-- polikarbon bant -->
+        <rect x="124" y="228" width="472" height="30" fill="var(--glass)" opacity=".6"/>
+        <g stroke="#1F262B" stroke-opacity=".35" stroke-width="2">
+          <line x1="124" y1="228" x2="124" y2="258"/><line x1="202" y1="228" x2="202" y2="258"/><line x1="281" y1="228" x2="281" y2="258"/><line x1="360" y1="228" x2="360" y2="258"/><line x1="439" y1="228" x2="439" y2="258"/><line x1="518" y1="228" x2="518" y2="258"/><line x1="596" y1="228" x2="596" y2="258"/>
+        </g>
+        <!-- kapılar -->
+        <rect x="236" y="284" width="130" height="84" fill="var(--door)"/>
+        <g stroke="#1F262B" stroke-width="2" opacity=".6"><line x1="236" y1="298" x2="366" y2="298"/><line x1="236" y1="312" x2="366" y2="312"/><line x1="236" y1="326" x2="366" y2="326"/><line x1="236" y1="340" x2="366" y2="340"/><line x1="236" y1="354" x2="366" y2="354"/></g>
+        <rect x="414" y="304" width="38" height="64" fill="var(--door)"/>
+        <circle cx="444" cy="338" r="2.5" fill="#F0B323"/>
+        <!-- açılış perdesi -->
+        <rect class="cover" x="40" y="100" width="680" height="266"/>
+      </svg>
+
+      <div class="picker" id="picker">
+        <div class="picker-top">
+          <div class="seg" role="group" aria-label="Boyanacak bölüm">
+            <button type="button" data-target="wall" aria-pressed="true">Cephe</button>
+            <button type="button" data-target="roof" aria-pressed="false">Çatı</button>
+          </div>
+          <span class="note-sm" style="margin:0">Rengi seçin, binada görün</span>
+        </div>
+        <div class="swatches" id="swatches"></div>
+        <p class="picked" id="picked"></p>
+        <a class="quote-link" href="#iletisim" id="quoteLink">Bu renklerle teklif iste</a>
+        <p class="note-sm">Ekran renkleri yaklaşıktır; kesin ton için RAL kataloğuna bakın.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="products" id="urunler">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Ürünler</h2>
+      <p class="lead">Çatı ve cephe kaplamada kullandığımız malzemeler ve teknik değerleri.</p>
+    </div>
+    <div class="catalog">
+      <div role="tablist" aria-label="Ürün listesi" id="tabs">
+        <button role="tab" id="t-sandvic" aria-controls="p-sandvic" aria-selected="true">Sandviç panel</button>
+        <button role="tab" id="t-aluminyum" aria-controls="p-aluminyum" aria-selected="false" tabindex="-1">Alüminyum sandviç panel</button>
+        <button role="tab" id="t-trapez" aria-controls="p-trapez" aria-selected="false" tabindex="-1">Trapez levha</button>
+        <button role="tab" id="t-kiremit" aria-controls="p-kiremit" aria-selected="false" tabindex="-1">Metal kiremit</button>
+        <button role="tab" id="t-polikarbon" aria-controls="p-polikarbon" aria-selected="false" tabindex="-1">Polikarbon panel</button>
+        <button role="tab" id="t-tamamlayici" aria-controls="p-tamamlayici" aria-selected="false" tabindex="-1">Tamamlayıcı elemanlar</button>
+      </div>
+
+      <div class="panels">
+        <article class="panel" role="tabpanel" id="p-sandvic" aria-labelledby="t-sandvic">
+          <div class="panel-grid">
+            <div>
+              <h3>Sandviç panel</h3>
+              <p>Galvaniz veya alüminyum trapez levha arasına dolgu malzemesi konularak üretilen sistemlerdir. Metalin ve dolgunun kalınlığı, kullanılacağı alana ve üzerine gelecek yüke göre belirlenir.</p>
+              <p>Bölgesel iklim koşulları dikkate alınarak üretilen paneller sıva ve boya gerektirmez. Isı, su ve ses yalıtımı sağlar; deneyimli ekiplerle montaj kısa sürede biter.</p>
+              <div class="chips"><span>Poliüretan köpük</span><span>Polistren (EPS)</span><span>Camyünü</span><span>Taşyünü</span></div>
+            </div>
+            <svg viewBox="0 0 360 230" role="img" aria-label="Sandviç panel kesiti: dış sac, yalıtım çekirdeği, iç sac">
+              <defs><pattern id="core" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#F2D58A"/><rect width="4" height="10" fill="#E8C063"/></pattern></defs>
+              <polygon points="20,40 60,24 100,40 140,24 180,40 220,24 260,40 300,24 340,40 340,52 20,52" fill="var(--ink)"/>
+              <rect x="20" y="52" width="320" height="90" fill="url(#core)"/>
+              <rect x="20" y="142" width="320" height="10" fill="var(--ink)"/>
+              <g font-family="Archivo,sans-serif" font-size="13" fill="var(--ink)" font-weight="600">
+                <text x="20" y="180">Dış sac (galvaniz veya alüminyum)</text>
+                <text x="20" y="200">Yalıtım çekirdeği</text>
+                <text x="20" y="220">İç sac</text>
+              </g>
+            </svg>
+          </div>
+        </article>
+
+        <article class="panel" role="tabpanel" id="p-aluminyum" aria-labelledby="t-aluminyum">
+          <div class="panel-grid">
+            <div>
+              <h3>Alüminyum sandviç panel</h3>
+              <p>Bina cephelerinde olduğu gibi çatılarda da kullanılır. Çatı paneli olarak değerlendirebileceğiniz bir malzemedir.</p>
+              <p>İç ve dış yüzü sac veya alüminyum gibi metallerden oluşur. Farklı kalınlıklarda mineral yün ya da EPS yalıtım çekirdeği, iç yüzlere yapıştırılarak panelin yalıtım katmanını oluşturur.</p>
+            </div>
+            <div class="ph shotph" role="img" aria-label="Alüminyum sandviç panel"><svg viewBox="0 0 720 540" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="720" height="540" fill="#2B343A"/><g opacity=".5" fill="#F0B323"><rect x="0" y="324.0" width="720" height="6"/></g><g fill="#4E5A62"><rect x="0" y="162.0" width="14" height="378.0"/><rect x="28" y="162.0" width="14" height="378.0"/><rect x="56" y="162.0" width="14" height="378.0"/><rect x="84" y="162.0" width="14" height="378.0"/><rect x="112" y="162.0" width="14" height="378.0"/><rect x="140" y="162.0" width="14" height="378.0"/><rect x="168" y="162.0" width="14" height="378.0"/><rect x="196" y="162.0" width="14" height="378.0"/><rect x="224" y="162.0" width="14" height="378.0"/><rect x="252" y="162.0" width="14" height="378.0"/><rect x="280" y="162.0" width="14" height="378.0"/><rect x="308" y="162.0" width="14" height="378.0"/><rect x="336" y="162.0" width="14" height="378.0"/><rect x="364" y="162.0" width="14" height="378.0"/><rect x="392" y="162.0" width="14" height="378.0"/><rect x="420" y="162.0" width="14" height="378.0"/><rect x="448" y="162.0" width="14" height="378.0"/><rect x="476" y="162.0" width="14" height="378.0"/><rect x="504" y="162.0" width="14" height="378.0"/><rect x="532" y="162.0" width="14" height="378.0"/><rect x="560" y="162.0" width="14" height="378.0"/><rect x="588" y="162.0" width="14" height="378.0"/><rect x="616" y="162.0" width="14" height="378.0"/><rect x="644" y="162.0" width="14" height="378.0"/><rect x="672" y="162.0" width="14" height="378.0"/><rect x="700" y="162.0" width="14" height="378.0"/></g></svg></div>
+          </div>
+        </article>
+
+        <article class="panel" role="tabpanel" id="p-trapez" aria-labelledby="t-trapez">
+          <div class="panel-grid">
+            <div>
+              <h3>Trapez levha</h3>
+              <p>Atermit, galvanizli sac levhaları doğal ve renkli olmak üzere iki tipte üretir. Trapez veya sinüzoidal oluklar, levhanın dayanımını ve taşıma gücünü artırır.</p>
+              <dl class="spec">
+                <div><dt>Trapez oluklu (ATR5, ATR6, ATR7)</dt><dd>0,50 mm kalınlık</dd></div>
+                <div><dt>Sinüs oluklu (ATR12, ATR15)</dt><dd>0,35 mm kalınlık</dd></div>
+              </dl>
+            </div>
+            <div class="ph shotph" role="img" aria-label="Trapez levha"><svg viewBox="0 0 720 540" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="720" height="540" fill="#2B343A"/><g opacity=".5" fill="#F0B323"><rect x="0" y="324.0" width="720" height="6"/></g><g fill="#4E5A62"><rect x="0" y="162.0" width="14" height="378.0"/><rect x="28" y="162.0" width="14" height="378.0"/><rect x="56" y="162.0" width="14" height="378.0"/><rect x="84" y="162.0" width="14" height="378.0"/><rect x="112" y="162.0" width="14" height="378.0"/><rect x="140" y="162.0" width="14" height="378.0"/><rect x="168" y="162.0" width="14" height="378.0"/><rect x="196" y="162.0" width="14" height="378.0"/><rect x="224" y="162.0" width="14" height="378.0"/><rect x="252" y="162.0" width="14" height="378.0"/><rect x="280" y="162.0" width="14" height="378.0"/><rect x="308" y="162.0" width="14" height="378.0"/><rect x="336" y="162.0" width="14" height="378.0"/><rect x="364" y="162.0" width="14" height="378.0"/><rect x="392" y="162.0" width="14" height="378.0"/><rect x="420" y="162.0" width="14" height="378.0"/><rect x="448" y="162.0" width="14" height="378.0"/><rect x="476" y="162.0" width="14" height="378.0"/><rect x="504" y="162.0" width="14" height="378.0"/><rect x="532" y="162.0" width="14" height="378.0"/><rect x="560" y="162.0" width="14" height="378.0"/><rect x="588" y="162.0" width="14" height="378.0"/><rect x="616" y="162.0" width="14" height="378.0"/><rect x="644" y="162.0" width="14" height="378.0"/><rect x="672" y="162.0" width="14" height="378.0"/><rect x="700" y="162.0" width="14" height="378.0"/></g></svg></div>
+          </div>
+        </article>
+
+        <article class="panel" role="tabpanel" id="p-kiremit" aria-labelledby="t-kiremit">
+          <div class="panel-grid">
+            <div>
+              <h3>Metal kiremit</h3>
+              <p>Atermit metal kiremit, Avrupa normlarında galvanizli sacdan üretilir. Elektrostatik boya ile alt katta 7 mikron, üst katta 5 mikron astar boya ve 20 mikron polyester boya uygulanır. Üzerinde koruyucu bir film tabakası bulunur.</p>
+              <div class="weights" aria-label="Metrekare ağırlık karşılaştırması">
+                <div class="w-row"><span>Metal kiremit</span><span class="w-bar"><i class="a" style="width:8.4%"></i></span><b>4 kg/m²</b></div>
+                <div class="w-row"><span>Tuğla kiremit</span><span class="w-bar"><i style="width:100%"></i></span><b>~48 kg/m²</b></div>
+              </div>
+              <ul class="ticks">
+                <li>Hava koşullarından ve yangından etkilenmez</li>
+                <li>Taşıyıcı sisteme yük getirmez</li>
+                <li>Çatlamaz, kırılmaz, bakım gerektirmez; kar tutmaz</li>
+                <li>İstenen renk ve boyda üretilir</li>
+                <li>Kiremit altı tahtası gerekmez, montajı hızlıdır</li>
+              </ul>
+            </div>
+            <div class="ph shotph" role="img" aria-label="Metal kiremit"><svg viewBox="0 0 720 540" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="720" height="540" fill="#2B343A"/><g opacity=".5" fill="#F0B323"><rect x="0" y="324.0" width="720" height="6"/></g><g fill="#4E5A62"><rect x="0" y="162.0" width="14" height="378.0"/><rect x="28" y="162.0" width="14" height="378.0"/><rect x="56" y="162.0" width="14" height="378.0"/><rect x="84" y="162.0" width="14" height="378.0"/><rect x="112" y="162.0" width="14" height="378.0"/><rect x="140" y="162.0" width="14" height="378.0"/><rect x="168" y="162.0" width="14" height="378.0"/><rect x="196" y="162.0" width="14" height="378.0"/><rect x="224" y="162.0" width="14" height="378.0"/><rect x="252" y="162.0" width="14" height="378.0"/><rect x="280" y="162.0" width="14" height="378.0"/><rect x="308" y="162.0" width="14" height="378.0"/><rect x="336" y="162.0" width="14" height="378.0"/><rect x="364" y="162.0" width="14" height="378.0"/><rect x="392" y="162.0" width="14" height="378.0"/><rect x="420" y="162.0" width="14" height="378.0"/><rect x="448" y="162.0" width="14" height="378.0"/><rect x="476" y="162.0" width="14" height="378.0"/><rect x="504" y="162.0" width="14" height="378.0"/><rect x="532" y="162.0" width="14" height="378.0"/><rect x="560" y="162.0" width="14" height="378.0"/><rect x="588" y="162.0" width="14" height="378.0"/><rect x="616" y="162.0" width="14" height="378.0"/><rect x="644" y="162.0" width="14" height="378.0"/><rect x="672" y="162.0" width="14" height="378.0"/><rect x="700" y="162.0" width="14" height="378.0"/></g></svg></div>
+          </div>
+        </article>
+
+        <article class="panel" role="tabpanel" id="p-polikarbon" aria-labelledby="t-polikarbon">
+          <div class="panel-grid">
+            <div>
+              <h3>Polikarbon panel</h3>
+              <p>Şeffaf veya beyaz renkte polikarbonattan üretilir. Standart kalınlığı 30 mm, 7 cidarlı ve çapraz kesitlidir. Üst yüzü U.V. korumalıdır. İstenen uzunlukta özel üretilebilir; iki ucu toz ve pis girişine karşı alüminyum bantla kapatılarak sevk edilir.</p>
+              <dl class="spec">
+                <div><dt>Panel genişliği</dt><dd>1000 mm ± 15 mm</dd></div>
+                <div><dt>Cidar sayısı</dt><dd>7 cidar</dd></div>
+                <div><dt>Birim ağırlık</dt><dd>3300 g/m² (± %10)</dd></div>
+                <div><dt>Isı iletim katsayısı (K)</dt><dd>1,30 W/m²K</dd></div>
+                <div><dt>Işık geçirgenliği</dt><dd>Şeffaf %60 · Beyaz %30</dd></div>
+                <div><dt>Kullanım sıcaklığı</dt><dd>-40 °C ~ +120 °C</dd></div>
+                <div><dt>Genleşme / büzülme</dt><dd>0,065 mm/m °C</dd></div>
+                <div><dt>Yanma dayanımı</dt><dd>EN 13501 B-s1,d0</dd></div>
+                <div><dt>Akustik izolasyon</dt><dd>21 dB</dd></div>
+                <div><dt>Koekstrüde U.V.</dt><dd>Var</dd></div>
+              </dl>
+            </div>
+            <div class="ph shotph" role="img" aria-label="Polikarbon panel"><svg viewBox="0 0 720 540" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="720" height="540" fill="#2B343A"/><g opacity=".5" fill="#F0B323"><rect x="0" y="324.0" width="720" height="6"/></g><g fill="#4E5A62"><rect x="0" y="162.0" width="14" height="378.0"/><rect x="28" y="162.0" width="14" height="378.0"/><rect x="56" y="162.0" width="14" height="378.0"/><rect x="84" y="162.0" width="14" height="378.0"/><rect x="112" y="162.0" width="14" height="378.0"/><rect x="140" y="162.0" width="14" height="378.0"/><rect x="168" y="162.0" width="14" height="378.0"/><rect x="196" y="162.0" width="14" height="378.0"/><rect x="224" y="162.0" width="14" height="378.0"/><rect x="252" y="162.0" width="14" height="378.0"/><rect x="280" y="162.0" width="14" height="378.0"/><rect x="308" y="162.0" width="14" height="378.0"/><rect x="336" y="162.0" width="14" height="378.0"/><rect x="364" y="162.0" width="14" height="378.0"/><rect x="392" y="162.0" width="14" height="378.0"/><rect x="420" y="162.0" width="14" height="378.0"/><rect x="448" y="162.0" width="14" height="378.0"/><rect x="476" y="162.0" width="14" height="378.0"/><rect x="504" y="162.0" width="14" height="378.0"/><rect x="532" y="162.0" width="14" height="378.0"/><rect x="560" y="162.0" width="14" height="378.0"/><rect x="588" y="162.0" width="14" height="378.0"/><rect x="616" y="162.0" width="14" height="378.0"/><rect x="644" y="162.0" width="14" height="378.0"/><rect x="672" y="162.0" width="14" height="378.0"/><rect x="700" y="162.0" width="14" height="378.0"/></g></svg></div>
+          </div>
+        </article>
+
+        <article class="panel" role="tabpanel" id="p-tamamlayici" aria-labelledby="t-tamamlayici">
+          <h3>Tamamlayıcı elemanlar</h3>
+          <p>Çatı ve cephedeki her birleşim noktası için mahya, saçak, köşe ve harpuşta aksesuarları.</p>
+          <div class="acc-grid">
+            <figure><div class="ph" role="img" aria-label="Düz üst mahya"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#EDEFF0"/><path d="M12 70 L38 30 H62 L88 70 Z" fill="#8D979E"/><path d="M12 70 H88 V78 H12 Z" fill="#1F262B"/></svg></div><figcaption>Düz üst mahya (A)</figcaption></figure>
+            <figure><div class="ph" role="img" aria-label="Bükümlü üst mahya"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#EDEFF0"/><path d="M12 70 L38 30 H62 L88 70 Z" fill="#8D979E"/><path d="M12 70 H88 V78 H12 Z" fill="#1F262B"/></svg></div><figcaption>Bükümlü üst mahya (A)</figcaption></figure>
+            <figure><div class="ph" role="img" aria-label="Alt mahya"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#EDEFF0"/><path d="M12 70 L38 30 H62 L88 70 Z" fill="#8D979E"/><path d="M12 70 H88 V78 H12 Z" fill="#1F262B"/></svg></div><figcaption>Alt mahya (B)</figcaption></figure>
+            <figure><div class="ph" role="img" aria-label="Yan saçak mahya"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#EDEFF0"/><path d="M12 70 L38 30 H62 L88 70 Z" fill="#8D979E"/><path d="M12 70 H88 V78 H12 Z" fill="#1F262B"/></svg></div><figcaption>Yan saçak mahya (C)</figcaption></figure>
+            <figure><div class="ph" role="img" aria-label="Sıva dibi"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#EDEFF0"/><path d="M12 70 L38 30 H62 L88 70 Z" fill="#8D979E"/><path d="M12 70 H88 V78 H12 Z" fill="#1F262B"/></svg></div><figcaption>Sıva dibi (D)</figcaption></figure>
+            <figure><div class="ph" role="img" aria-label="Cephe alt bitiş"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#EDEFF0"/><path d="M12 70 L38 30 H62 L88 70 Z" fill="#8D979E"/><path d="M12 70 H88 V78 H12 Z" fill="#1F262B"/></svg></div><figcaption>Cephe alt bitiş (D)</figcaption></figure>
+            <figure><div class="ph" role="img" aria-label="Cephe ek aksesuarı"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#EDEFF0"/><path d="M12 70 L38 30 H62 L88 70 Z" fill="#8D979E"/><path d="M12 70 H88 V78 H12 Z" fill="#1F262B"/></svg></div><figcaption>Cephe ek aksesuarı</figcaption></figure>
+            <figure><div class="ph" role="img" aria-label="Dış ve iç köşe aksesuarları"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#EDEFF0"/><path d="M12 70 L38 30 H62 L88 70 Z" fill="#8D979E"/><path d="M12 70 H88 V78 H12 Z" fill="#1F262B"/></svg></div><figcaption>Dış ve iç köşe (E)</figcaption></figure>
+            <figure><div class="ph" role="img" aria-label="Harpuşta aksesuarı"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#EDEFF0"/><path d="M12 70 L38 30 H62 L88 70 Z" fill="#8D979E"/><path d="M12 70 H88 V78 H12 Z" fill="#1F262B"/></svg></div><figcaption>Harpuşta (F)</figcaption></figure>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="apps" id="uygulamalar">
+  <div class="wrap">
+    <h2>Uygulamalar</h2>
+    <p class="lead" style="margin-top:14px">Çatı ve cephe kaplama işçiliği tecrübeli personelimiz tarafından uygulanır; projeler kısa sürede teslim edilir.</p>
+    <div class="apps-grid">
+      <div class="app">
+        <div class="appart" role="img" aria-label="Cephe kaplama"><svg viewBox="0 0 600 420" preserveAspectRatio="xMidYMid slice"><rect width="600" height="420" fill="#2B343A"/><rect x="0" y="0" width="12" height="420" fill="#4E5A62"/><rect x="12" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="22" y="0" width="12" height="420" fill="#4E5A62"/><rect x="34" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="44" y="0" width="12" height="420" fill="#4E5A62"/><rect x="56" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="66" y="0" width="12" height="420" fill="#4E5A62"/><rect x="78" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="88" y="0" width="12" height="420" fill="#4E5A62"/><rect x="100" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="110" y="0" width="12" height="420" fill="#4E5A62"/><rect x="122" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="132" y="0" width="12" height="420" fill="#4E5A62"/><rect x="144" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="154" y="0" width="12" height="420" fill="#4E5A62"/><rect x="166" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="176" y="0" width="12" height="420" fill="#4E5A62"/><rect x="188" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="198" y="0" width="12" height="420" fill="#4E5A62"/><rect x="210" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="220" y="0" width="12" height="420" fill="#4E5A62"/><rect x="232" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="242" y="0" width="12" height="420" fill="#4E5A62"/><rect x="254" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="264" y="0" width="12" height="420" fill="#4E5A62"/><rect x="276" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="286" y="0" width="12" height="420" fill="#4E5A62"/><rect x="298" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="308" y="0" width="12" height="420" fill="#4E5A62"/><rect x="320" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="330" y="0" width="12" height="420" fill="#4E5A62"/><rect x="342" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="352" y="0" width="12" height="420" fill="#4E5A62"/><rect x="364" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="374" y="0" width="12" height="420" fill="#4E5A62"/><rect x="386" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="396" y="0" width="12" height="420" fill="#4E5A62"/><rect x="408" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="418" y="0" width="12" height="420" fill="#4E5A62"/><rect x="430" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="440" y="0" width="12" height="420" fill="#4E5A62"/><rect x="452" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="462" y="0" width="12" height="420" fill="#4E5A62"/><rect x="474" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="484" y="0" width="12" height="420" fill="#4E5A62"/><rect x="496" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="506" y="0" width="12" height="420" fill="#4E5A62"/><rect x="518" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="528" y="0" width="12" height="420" fill="#4E5A62"/><rect x="540" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="550" y="0" width="12" height="420" fill="#4E5A62"/><rect x="562" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="572" y="0" width="12" height="420" fill="#4E5A62"/><rect x="584" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/><rect x="594" y="0" width="12" height="420" fill="#4E5A62"/><rect x="606" y="0" width="3" height="420" fill="#1F262B" opacity=".5"/></svg></div>
+        <div><h3>Cephe kaplama</h3><p>Sandviç panel cephe kaplaması. Sıva ve boya gerektirmeden ısı, su ve ses yalıtımı.</p></div>
+      </div>
+      <div class="app">
+        <div class="appart" role="img" aria-label="Çatı kaplama"><svg viewBox="0 0 600 420" preserveAspectRatio="xMidYMid slice"><rect width="600" height="420" fill="#2B343A"/><polygon points="0,260 300,60 600,260 600,420 0,420" fill="#4E5A62"/><polygon points="0,62.0 16,72.56 16,420 0,420" fill="var(--door)"/><polygon points="40,88.4 56,98.95999999999998 56,420 40,420" fill="var(--door)"/><polygon points="80,114.79999999999998 96,125.35999999999999 96,420 80,420" fill="var(--door)"/><polygon points="120,141.2 136,151.76 136,420 120,420" fill="var(--door)"/><polygon points="160,167.6 176,178.16 176,420 160,420" fill="var(--door)"/><polygon points="200,194.0 216,204.56 216,420 200,420" fill="var(--door)"/><polygon points="240,220.4 256,230.96 256,420 240,420" fill="var(--door)"/><polygon points="280,246.8 296,257.36 296,420 280,420" fill="var(--door)"/><polygon points="320,246.8 336,236.24 336,420 320,420" fill="var(--door)"/><polygon points="360,220.4 376,209.84 376,420 360,420" fill="var(--door)"/><polygon points="400,194.0 416,183.44 416,420 400,420" fill="var(--door)"/><polygon points="440,167.6 456,157.04 456,420 440,420" fill="var(--door)"/><polygon points="480,141.2 496,130.64 496,420 480,420" fill="var(--door)"/><polygon points="520,114.79999999999998 536,104.23999999999998 536,420 520,420" fill="var(--door)"/><polygon points="560,88.4 576,77.84 576,420 560,420" fill="var(--door)"/><polygon points="600,62.0 616,51.44 616,420 600,420" fill="var(--door)"/></svg></div>
+        <div><h3>Çatı kaplama</h3><p>Poliüretan sandviç panel ve polikarbon sistem çatı kaplama uygulamaları.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="refs" id="referanslar">
+  <div class="wrap">
+    <h2>Referanslarımız</h2>
+    <p class="lead" style="margin-top:14px">Trakya'dan Marmara ve Karadeniz'e uzanan tesislerde tamamladığımız işlerden bazıları.</p>
+    <div class="ref-layout">
+      <ul class="ref-list">
+        <li>Gülle Teksil</li>
+        <li>Bendis AVM<small>Keşan</small></li>
+        <li>Bozkurt Metal<small>Biga</small></li>
+        <li>Asturk Beton</li>
+        <li>ASSU<small>Akyazı, Bolu</small></li>
+      </ul>
+      <div class="gallery" id="gallery" aria-label="Proje fotoğrafları için ayrılan alan">
+        <div class="g"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#2B343A"/><path d="M10 72 L40 36 H62 L90 72 Z" fill="#4E5A62"/><rect x="10" y="72" width="80" height="6" fill="#F0B323" opacity=".7"/></svg></div>
+        <div class="g"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#2B343A"/><path d="M10 72 L40 36 H62 L90 72 Z" fill="#4E5A62"/><rect x="10" y="72" width="80" height="6" fill="#F0B323" opacity=".7"/></svg></div>
+        <div class="g"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#2B343A"/><path d="M10 72 L40 36 H62 L90 72 Z" fill="#4E5A62"/><rect x="10" y="72" width="80" height="6" fill="#F0B323" opacity=".7"/></svg></div>
+        <div class="g"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#2B343A"/><path d="M10 72 L40 36 H62 L90 72 Z" fill="#4E5A62"/><rect x="10" y="72" width="80" height="6" fill="#F0B323" opacity=".7"/></svg></div>
+        <div class="g"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#2B343A"/><path d="M10 72 L40 36 H62 L90 72 Z" fill="#4E5A62"/><rect x="10" y="72" width="80" height="6" fill="#F0B323" opacity=".7"/></svg></div>
+        <div class="g"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#2B343A"/><path d="M10 72 L40 36 H62 L90 72 Z" fill="#4E5A62"/><rect x="10" y="72" width="80" height="6" fill="#F0B323" opacity=".7"/></svg></div>
+        <div class="g"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#2B343A"/><path d="M10 72 L40 36 H62 L90 72 Z" fill="#4E5A62"/><rect x="10" y="72" width="80" height="6" fill="#F0B323" opacity=".7"/></svg></div>
+        <div class="g"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#2B343A"/><path d="M10 72 L40 36 H62 L90 72 Z" fill="#4E5A62"/><rect x="10" y="72" width="80" height="6" fill="#F0B323" opacity=".7"/></svg></div>
+        <div class="g"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#2B343A"/><path d="M10 72 L40 36 H62 L90 72 Z" fill="#4E5A62"/><rect x="10" y="72" width="80" height="6" fill="#F0B323" opacity=".7"/></svg></div>
+        <div class="g"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#2B343A"/><path d="M10 72 L40 36 H62 L90 72 Z" fill="#4E5A62"/><rect x="10" y="72" width="80" height="6" fill="#F0B323" opacity=".7"/></svg></div>
+        <div class="g"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#2B343A"/><path d="M10 72 L40 36 H62 L90 72 Z" fill="#4E5A62"/><rect x="10" y="72" width="80" height="6" fill="#F0B323" opacity=".7"/></svg></div>
+        <div class="g"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#2B343A"/><path d="M10 72 L40 36 H62 L90 72 Z" fill="#4E5A62"/><rect x="10" y="72" width="80" height="6" fill="#F0B323" opacity=".7"/></svg></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="about" id="hakkimizda">
+  <div class="wrap about-grid">
+    <div>
+      <h2>2007'den beri Trakya'da</h2>
+      <p>DGC Yapı, endüstriyel tesislerin cephe ve çatı kaplamasında uzman ekibi ve profesyonel bakış açısıyla çalışır. Tüm projelerimizde "Yapı Güvenliği" kurallarını esas alırız.</p>
+      <p>Hedefimiz, çatı kaplama ve izolasyon malzemelerinde en iyi ve en hızlı hizmeti vermek. Bayiliğini yaptığımız markalardan kazandığımız güven, müşterilerimizden aldığımız ilham ve ekip arkadaşlarımızın özverisiyle temelden çatıya yalıtım ve izolasyon ürünlerini tedarik eder, projelerinizde uygularız.</p>
+      <p><b>Atermit Trakya Bölge Bayii</b> olarak galvanizli sac, trapez levha ve metal kiremit ürünlerini bölgemize sunuyoruz.</p>
+    </div>
+    <div class="mv">
+      <div><h3>Misyon</h3><p>Sosyal sorumluluklarımızın bilinciyle yurt genelinde iş hacmimizi büyütmek ve daha büyük projelere imza atmak.</p></div>
+      <div><h3>Vizyon</h3><p>Güven, kalite ve müşteri memnuniyetinden ödün vermeden dünya standartlarında yeni projeler üretmeye devam etmek.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="iletisim">
+  <div class="wrap">
+    <h2>Projenizi anlatın, teklif hazırlayalım</h2>
+    <div class="contact-grid">
+      <div class="info">
+        <p><a class="big" href="tel:+905322076262">0 532 207 62 62</a><button class="copy" type="button" data-copy="0 532 207 62 62">Kopyala</button></p>
+        <p><a href="mailto:info@dgcyapi.com.tr">info@dgcyapi.com.tr</a><button class="copy" type="button" data-copy="info@dgcyapi.com.tr">Kopyala</button></p>
+        <p>Yavuz Mah. Peştemalci Cad.<br>Bayol Pasajı 18/88<br>Süleymanpaşa / Tekirdağ</p>
+        <p><a href="https://wa.me/905322076262">WhatsApp'tan yazın</a></p>
+        <p><a href="https://www.instagram.com/dgc_yapi/" rel="noopener">Instagram</a> &nbsp; <a href="https://www.facebook.com/dgcyapi/" rel="noopener">Facebook</a></p>
+      </div>
+      <form class="quote" id="quoteForm">
+        <div class="f-row">
+          <label>Ad soyad<input name="ad" required autocomplete="name"></label>
+          <label>Telefon<input name="telefon" type="tel" required autocomplete="tel"></label>
+        </div>
+        <label>İş türü
+          <select name="is" id="isTuru">
+            <option>Cephe kaplama</option>
+            <option>Çatı kaplama</option>
+            <option>Çatı ve cephe</option>
+            <option>Sadece malzeme tedariki</option>
+          </select>
+        </label>
+        <label>Projeniz hakkında
+          <textarea name="mesaj" id="mesaj" placeholder="Yer, yaklaşık m² ve istediğiniz ürün"></textarea>
+        </label>
+        <button class="btn primary" type="submit" style="justify-self:start">Teklif metnini hazırla</button>
+        <p class="msg" id="formMsg" role="status"></p><p class="note-sm">Teklif metni hazırlanır; kopyalayıp e-posta veya WhatsApp ile iletebilirsiniz.</p>
+      </form>
+    </div>
+    <div class="mapbox"><p><b>Ofisimiz:</b> Yavuz Mah. Peştemalci Cad. Bayol Pasajı 18/88, Süleymanpaşa / Tekirdağ</p><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&amp;query=40.977319,27.510006" rel="noopener" target="_blank">Haritada aç</a></div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 DGC Yapı. Tüm hakları saklıdır. Atermit Trakya Bölge Bayii.</span>
+    <span><a href="https://www.instagram.com/dgc_yapi/" rel="noopener">Instagram</a><a href="https://www.facebook.com/dgcyapi/" rel="noopener">Facebook</a></span>
+  </div>
+</footer>
+
+<div class="callbar"><a href="tel:+905322076262">Ara</a><a href="https://wa.me/905322076262">WhatsApp</a></div>
+
+
+
+<script>
+document.documentElement.classList.add('js');
+
+/* menü */
+const burger=document.querySelector('.burger'),nav=document.getElementById('nav');
+burger.addEventListener('click',()=>{const o=nav.classList.toggle('open');burger.setAttribute('aria-expanded',o)});
+nav.addEventListener('click',e=>{if(e.target.tagName==='A'){nav.classList.remove('open');burger.setAttribute('aria-expanded',false)}});
+
+/* RAL seçici */
+const RAL=[
+ ['RAL 9010','Saf beyaz','#F1ECE1'],['RAL 7035','Açık gri','#CBD0CC'],['RAL 9006','Beyaz alüminyum','#A5A5A5'],['RAL 7016','Antrasit gri','#293133'],
+ ['RAL 1015','Açık fildişi','#E6D2B5'],['RAL 8017','Çikolata kahve','#45322E'],['RAL 3009','Oksit kırmızı','#6D342D'],['RAL 3020','Trafik kırmızısı','#BB1E10'],
+ ['RAL 5015','Gök mavisi','#2271B3'],['RAL 5010','Gentiane mavisi','#0E294B'],['RAL 6011','Reseda yeşili','#587246'],['RAL 6005','Yosun yeşili','#2F4538']
+];
+const sel={wall:RAL[1],roof:RAL[3]};let target='wall';
+const sw=document.getElementById('swatches'),picked=document.getElementById('picked'),stage=document.getElementById('stage');
+RAL.forEach((c,i)=>{
+  const b=document.createElement('button');b.type='button';b.className='sw';b.style.background=c[2];
+  b.title=c[0]+' · '+c[1];b.setAttribute('aria-label',c[0]+' '+c[1]);b.dataset.i=i;sw.appendChild(b);
+});
+function paint(){
+  stage.style.setProperty('--wall',sel.wall[2]);stage.style.setProperty('--roof',sel.roof[2]);
+  picked.innerHTML='Cephe: <b>'+sel.wall[0]+' '+sel.wall[1]+'</b> · Çatı: <b>'+sel.roof[0]+' '+sel.roof[1]+'</b>';
+  sw.querySelectorAll('.sw').forEach(b=>b.setAttribute('aria-pressed',RAL[b.dataset.i]===sel[target]));
+}
+sw.addEventListener('click',e=>{const b=e.target.closest('.sw');if(!b)return;sel[target]=RAL[b.dataset.i];paint()});
+document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>{
+  target=b.dataset.target;document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x===b));paint();
+}));
+document.getElementById('quoteLink').addEventListener('click',()=>{
+  document.getElementById('mesaj').value='Cephe rengi: '+sel.wall[0]+' '+sel.wall[1]+'\nÇatı rengi: '+sel.roof[0]+' '+sel.roof[1]+'\n';
+});
+paint();
+
+/* ürün sekmeleri */
+const tabs=[...document.querySelectorAll('[role=tab]')];
+function show(t,focus){
+  tabs.forEach(x=>{const on=x===t;x.setAttribute('aria-selected',on);x.tabIndex=on?0:-1;document.getElementById(x.getAttribute('aria-controls')).hidden=!on});
+  if(focus)t.focus();
+}
+tabs.forEach((t,i)=>{
+  t.addEventListener('click',()=>show(t));
+  t.addEventListener('keydown',e=>{
+    const k=e.key;let n=null;
+    if(k==='ArrowDown'||k==='ArrowRight')n=tabs[(i+1)%tabs.length];
+    if(k==='ArrowUp'||k==='ArrowLeft')n=tabs[(i-1+tabs.length)%tabs.length];
+    if(n){e.preventDefault();show(n,true)}
+  });
+});
+show(tabs[0]);
+
+/* teklif formu */
+const msgEl=document.getElementById('formMsg');
+document.getElementById('quoteForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const d=new FormData(e.target);
+  const txt='Teklif talebi
+Ad soyad: '+d.get('ad')+'
+Telefon: '+d.get('telefon')+'
+İş türü: '+d.get('is')+'
+
+'+(d.get('mesaj')||'');
+  const ok=()=>{msgEl.textContent='Teklif metni kopyalandı. info@dgcyapi.com.tr adresine veya WhatsApp\'tan gönderebilirsiniz.'};
+  const fail=()=>{const t=document.getElementById('mesaj');t.value=txt;t.select();msgEl.textContent='Metin kutuya yazıldı. Kopyalayıp info@dgcyapi.com.tr adresine gönderin.'};
+  try{navigator.clipboard.writeText(txt).then(ok,fail)}catch(_){fail()}
+});
+document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',()=>{
+  const v=b.dataset.copy;const done=()=>{b.textContent='Kopyalandı';setTimeout(()=>b.textContent='Kopyala',1600)};
+  try{navigator.clipboard.writeText(v).then(done,()=>{})}catch(_){}
+}));</script>
+</body>
+</html>
