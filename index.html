@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DGC Yapı | Sandviç Panel Çatı ve Cephe Kaplama, Çorlu Çerkezköy Tekirdağ</title>
 <meta name="description" content="DGC Yapı, 2007'den beri Trakya'da endüstriyel tesislerin çatı ve cephe kaplamasını yapar. Sandviç panel, trapez levha, metal kiremit ve polikarbon panel. Atermit Trakya Bölge Bayii.">
 <meta name="theme-color" content="#1F262B">
@@ -45,7 +45,7 @@ section{scroll-margin-top:72px}
 .btn.ghost:hover{background:var(--btn-bg);color:var(--btn-fg)}
 
 /* header */
-header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--head-bg);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header.site{position:sticky;top:0;z-index:50;background:var(--head-bg);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 header.site .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-stretch:125%;font-weight:900;letter-spacing:.01em;font-size:1.2rem}
 .brand svg{width:34px;height:24px}
@@ -205,7 +205,6 @@ footer.site a{margin-left:18px;color:#fff}
   *{transition:none!important}
 }
 
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--head-bg)}
 .ph{display:grid;place-items:center;background:var(--paper);border:1px solid var(--line);border-radius:4px;color:var(--ink2);overflow:hidden}
 .ph svg{width:100%;height:100%}
 .shotph{aspect-ratio:4/3;width:100%}
@@ -645,12 +644,7 @@ const msgEl=document.getElementById('formMsg');
 document.getElementById('quoteForm').addEventListener('submit',e=>{
   e.preventDefault();
   const d=new FormData(e.target);
-  const txt='Teklif talebi
-Ad soyad: '+d.get('ad')+'
-Telefon: '+d.get('telefon')+'
-İş türü: '+d.get('is')+'
-
-'+(d.get('mesaj')||'');
+  const txt='Teklif talebi\nAd soyad: '+d.get('ad')+'\nTelefon: '+d.get('telefon')+'\nİş türü: '+d.get('is')+'\n\n'+(d.get('mesaj')||'');
   const ok=()=>{msgEl.textContent='Teklif metni kopyalandı. info@dgcyapi.com.tr adresine veya WhatsApp\'tan gönderebilirsiniz.'};
   const fail=()=>{const t=document.getElementById('mesaj');t.value=txt;t.select();msgEl.textContent='Metin kutuya yazıldı. Kopyalayıp info@dgcyapi.com.tr adresine gönderin.'};
   try{navigator.clipboard.writeText(txt).then(ok,fail)}catch(_){fail()}
